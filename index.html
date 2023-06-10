@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>frame</title>
+        
+    </header>
+    <body>
+        <h1>
+            <center>
+                Working with frame
+            </center>
+        </h1>
+        <!---iframe creation-->
+        <iframe src="content.html"width="100"></iframe>
+        <iframe name="side2"width="1000"></iframe>
+        <a href="Courses.html"target="side2">courses</a>
+         <a href="https://github.com/Nisha-sharma5665/Shopping-website/settings/pages"target="side2">menu</a>
+         <h1>Header 1</h1>
+         <ol>
+            <li>web desinging</li>
+            <li>web server</li>
+            <li>web development</li>
+         </ol>
+         <h1>
+            <center>
+                Form
+            </center>
+        </h1>
+        <form>
+            <label for="Fname">First name:</label><br>
+            <input type="text"id="Fname"name="Fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text"id="lname"name="lname"><br>
+            <label for="Age">Age:</label><br>
+            <input type="text"id="Age"name="Age"><br>
+
+            <input type="radio"id="python">
+            <label for="python">Python</label><br>
+             <input type="radio"id="Java">
+            <label for="Java">Java</label><br>
+            <input type="radio"id="html">
+            <label for="html">html</label><br>
+            <input type="checkbox"id="python">
+            <label for="python">Python</label><br>
+             <input type="checkbox"id="Java">
+            <label for="Java">Java</label><br>
+            <input type="checkbox"id="html">
+            <label for="html">html</label><br>
+            <br>
+            <input type="submit"value="submit">
+            <br><br>
+            <select name="SMODE">
+                <option selected="selected"value="">Select learning mode</option>
+                
+                <option value="offline">1</option>
+
+                <option value="Online">2</option>
+                <option value="Hybrid">3</option>
+            </select>
+            <br><br>
+            <label for="uname">User name:</label><br>
+            <input type="text"id="uname"name="uname"><br>
+            <label for="pass">password:</label><br>
+            <input type="text"id="pass"name="pass"><br>
+            <br>
+            <form method="post"enctype="multipart/form-data"action="upload.php">
+                <input type="file"name="pic"/>
+                <input type="sumit"value="upload"/>
+            </form>
+        </form>
+    </body>
+</html>
